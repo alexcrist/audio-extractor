@@ -1,5 +1,17 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 40px;
+    background-color: #f7f1e2;
 }
 
+h1 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+* {
+    font-family: "Berkshire Swash", serif;
+}

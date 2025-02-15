@@ -1,0 +1,44 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.segment {
+}
+
+.divider {
+    border-bottom: 1px solid #00000033;
+    margin: 20px 0;
+}
+
+.addSegmentButton {
+    margin-top: 20px;
+}
+
+.segment {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #d3c9ae;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.trashIcon {
+    padding: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.trashIcon:hover {
+    opacity: 0.5;
+}
