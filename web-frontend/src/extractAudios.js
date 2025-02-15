@@ -52,6 +52,4 @@ export const extractAudio = async (audioFile, segments) => {
         link.click();
         link.remove();
     }
-
-    alert("Audio files exported!");
 };

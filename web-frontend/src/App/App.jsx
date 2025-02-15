@@ -79,20 +79,18 @@ const App = () => {
                     <div className={styles.segment} key={index}>
                         <div className={styles.inputContainer}>
                             <label className={styles.label}>
-                                start (seconds)
+                                start (00:00)
                             </label>
                             <input
-                                type="number"
+                                type="text"
                                 value={segment.start}
                                 onChange={onChange("start")}
                             />
                         </div>
                         <div className={styles.inputContainer}>
-                            <label className={styles.label}>
-                                end (seconds)
-                            </label>
+                            <label className={styles.label}>end (00:00)</label>
                             <input
-                                type="number"
+                                type="text"
                                 value={segment.end}
                                 onChange={onChange("end")}
                             />
